@@ -7,7 +7,7 @@ def run(dataset):
     np.random.shuffle(dataset)
     classes = dataset[:, -1]
     features = dataset[:, :54]
-    features = TD_IDF(features)
+    features = tf_idf(features)
     svm("linear", 3, features, classes) #3 default degree  value in SVC, it's ignored in linear and rbf
     svm("poly", 2, features, classes)
     svm("rbf", 3, features, classes)
