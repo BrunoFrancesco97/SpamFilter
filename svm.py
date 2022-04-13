@@ -30,12 +30,10 @@ def svm(kernel, degree, features, classes):
     result = cross_val_score(classifier, features, classes, cv=10, n_jobs=-1) 
     view(result, classifier.kernel)
 
-#TF/IDF representation.
-def TD_IDF(features):
-    tf = features/100.0
+def tf_idf(features):
     ndoc = features.shape[0]
     idf = np.log10(ndoc/(features != 0).sum(0))
-    return tf*idf
+    return (features/100.0)*idf
 
 def normalize(features):
     norms = np.sqrt(((features+1e-100)**2).sum(axis=1, keepdims=True))
