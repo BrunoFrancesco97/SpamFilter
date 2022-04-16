@@ -23,6 +23,7 @@ def view(result, kernel):
     print("Minimum accuracy: "+str(result.min()))
     print("Maximum accuracy: "+str(result.max()))
     print("Accuracy mean: "+str(result.mean()))
+    print("Accuracy variance: "+str(result.var()))
     print("***********")
 
 def svm(kernel, degree, features, classes):
