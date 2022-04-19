@@ -10,4 +10,5 @@ Can you transform the kernels to make use of angular information only (i.e., no 
 - Perform k-NN clasification with k=5.
 
 Provide the code, the models on the training set, and the respective performances in 10 way cross validation and  explain the differences between the three models.
+
 P.S. you can use a library implementation for SVM, but do implement the Naive Bayes on your own. As for k-NN, you can use libraries if you want, but it might just be easier to do it on your own.
