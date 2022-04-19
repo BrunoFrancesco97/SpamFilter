@@ -1,7 +1,7 @@
 import numpy as np
 from sklearn.svm import SVC
 from sklearn.model_selection import cross_val_score
-
+import sys
 
 def run(dataset):
     np.random.shuffle(dataset)
@@ -37,5 +37,5 @@ def tf_idf(features):
     return (features/100.0)*idf
 
 def normalize(features):
-    norms = np.sqrt(((features+1e-100)**2).sum(axis=1, keepdims=True))
+    norms = np.sqrt(((features+sys.float_info.epsilon)**2).sum(axis=1, keepdims=True))
     return np.where(norms > 0.0, features / norms, 0.)
