@@ -44,7 +44,7 @@ class Naive_Bayes_Classifier(BaseEstimator):
             index = index + 1
         return (success / len(labels))
     
-def nb(dataset):
+def run(dataset):
     np.random.shuffle(dataset)
     classifier = Naive_Bayes_Classifier()
     features = dataset[:, :54]
