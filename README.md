@@ -1,5 +1,5 @@
 
-Second assignment solved in "**Artificial Intelligence: Knowledge Representation and planning**" course at Ca'Foscari University, see <ins>**REPORT.pdf**</ins> for a project explanation.
+Second assignment solved in "**Artificial Intelligence: Knowledge Representation and planning**" course at Ca'Foscari University, see <ins>**DOCUMENTATION/REPORT.pdf**</ins> for a project explanation.
 
 **Requirements**:
 
