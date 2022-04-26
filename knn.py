@@ -1,4 +1,5 @@
 import numpy as np
+import utils as u
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import cross_val_score
 
@@ -6,7 +7,8 @@ from sklearn.model_selection import cross_val_score
 def run(data, k):
     np.random.shuffle(data)
     classes = data[:, -1] 
-    features = data[:, :54] 
+    features = data[:, :54]
+    features = u.tf_idf(features) 
     knn(k, features, classes)
 
 def knn(k, features, classes):
