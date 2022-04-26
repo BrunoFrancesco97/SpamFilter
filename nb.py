@@ -1,4 +1,5 @@
 import numpy as np
+import utils as u
 from sklearn.model_selection import cross_val_score
 from sklearn.base import BaseEstimator
 import math
@@ -49,6 +50,7 @@ def run(dataset):
     classifier = Naive_Bayes_Classifier()
     features = dataset[:, :54]
     classes = dataset[:, -1]
+    features = u.tf_idf(features)
     results = cross_val_score(classifier, features, classes, cv=10, n_jobs=-1)
     view(results)
 
