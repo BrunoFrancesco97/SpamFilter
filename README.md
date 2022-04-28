@@ -1,5 +1,5 @@
 
-Second assignment solved in "**Artificial Intelligence: Knowledge Representation and planning**" course at Ca'Foscari University, check <a href="https://github.com/BrunoFrancesco97/SpamFilter/blob/master/DOCUMENTATION/REPORT.pdf">report<a></ins> for a project explanation. 
+Second assignment solved in "**Artificial Intelligence: Knowledge Representation and planning**" course at Ca'Foscari University, check the <a href="https://github.com/BrunoFrancesco97/SpamFilter/blob/master/DOCUMENTATION/REPORT.pdf">report<a></ins> for a project explanation. 
 
 **Requirements**:
 
