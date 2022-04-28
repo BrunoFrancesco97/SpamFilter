@@ -2,7 +2,7 @@
 
 Second assignment solved in "**Artificial Intelligence: Knowledge Representation and planning**" course at Ca'Foscari University, check the <a href="https://github.com/BrunoFrancesco97/SpamFilter/blob/master/DOCUMENTATION/REPORT.pdf">report<a></ins> for a project explanation. 
 
-### Requirements:
+## Description of the project:
 
 Write a spam filter using discrimitative and generative classifiers. Use the Spambase dataset which already represents spam/ham messages through a bag-of-words representations through a dictionary of 48 highly discriminative words and 6 characters. The first 54 features correspond to word/symbols frequencies; ignore features 55-57; feature 58 is the class label (1 spam/0 ham).
 - Perform SVM classification using linear, polynomial of degree 2, and RBF kernels over the TF/IDF representation.
